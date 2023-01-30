@@ -34,7 +34,6 @@ class Feedback extends Component {
 
     render() {
         const { good, neutral, bad } = this.state;
-        // some test text
         return (
             <div className="feedback">
                 <Section title="Please leave feedback">
